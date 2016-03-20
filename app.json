@@ -1,0 +1,16 @@
+{
+  "name": "Mediawiki",
+  "description": "A MediaWiki Package",
+  "repository": "https://github.com/NeftaliYagua/Heroku-ZendSkeletonApplication",
+  "logo": "https://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png",
+  "author": "Fundación Wikimedia",
+  "website": "https://www.mediawiki.org/wiki/MediaWiki",
+  "success_url": "/",
+  "keywords": ["php", "MediaWiki"],
+  "image": "heroku/php",
+  "buildpacks": [
+    {
+    "url": "https://github.com/heroku/heroku-buildpack-php"
+    }
+  ]
+}
